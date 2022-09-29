@@ -18,21 +18,21 @@
         </div>
         <div class="color-sliders">
             <div class="slide-container">
-                <div class="slider-value" id="red-output"></div>
+                <!-- <div class="slider-value" id="red-output"></div> -->
                 <div class="slider-box">
                     <input type="range" class="slider" min="0" max="255" id="red-slider" value="0">
                 </div>
                 <div class="slider-title">Red</div>
             </div>
             <div class="slide-container">
-                <div class="slider-value" id="green-output"></div>
+                <!-- <div class="slider-value" id="green-output"></div> -->
                 <div class="slider-box">
                     <input type="range" class="slider" min="0" max="255" id="green-slider" value="0">
                 </div>
                 <div class="slider-title">Green</div>
             </div>
             <div class="slide-container">
-                <div class="slider-value" id="blue-output"></div>
+                <!-- <div class="slider-value" id="blue-output"></div> -->
                 <div class="slider-box">
                     <input type="range" class="slider" min="0" max="255" id="blue-slider" value="0">
                 </div>
@@ -41,44 +41,89 @@
         </div>
     </div>
     <div class="guess-container">
-        <div class="guess-row">
-            <div class="red-guess"></div>
-            <div class="green-guess"></div>
-            <div class="blue-guess"></div>
+        <div class="output-row">
+            <div class="swatch-output-container">
+                <div id="swatch-output">?</div>
+            </div>
+            <div class="value-output-container">
+                <div id="red-output"></div>
+                <div id="green-output"></div>
+                <div id="blue-output"></div>
+            </div>
+        </div>
+        <div class="submit-container">
+            <div class="swatch-output-container"></div>
+            <button id="submit-button">Submit</button>
         </div>
         <div class="guess-row">
-            <div class="red-guess"></div>
-            <div class="green-guess"></div>
-            <div class="blue-guess"></div>
+            <div class="swatch-output-container">
+                <div class="swatch-guess"></div>
+            </div>
+            <div class="value-output-container">
+                <div class="red-guess"></div>
+                <div class="green-guess"></div>
+                <div class="blue-guess"></div>
+            </div>
         </div>
         <div class="guess-row">
-            <div class="red-guess"></div>
-            <div class="green-guess"></div>
-            <div class="blue-guess"></div>
+            <div class="swatch-output-container">
+                <div class="swatch-guess"></div>
+            </div>
+            <div class="value-output-container">
+                <div class="red-guess"></div>
+                <div class="green-guess"></div>
+                <div class="blue-guess"></div>
+            </div>
         </div>
         <div class="guess-row">
-            <div class="red-guess"></div>
-            <div class="green-guess"></div>
-            <div class="blue-guess"></div>
+            <div class="swatch-output-container">
+                <div class="swatch-guess"></div>
+            </div>
+            <div class="value-output-container">
+                <div class="red-guess"></div>
+                <div class="green-guess"></div>
+                <div class="blue-guess"></div>
+            </div>
         </div>
         <div class="guess-row">
-            <div class="red-guess"></div>
-            <div class="green-guess"></div>
-            <div class="blue-guess"></div>
+            <div class="swatch-output-container">
+                <div class="swatch-guess"></div>
+            </div>
+            <div class="value-output-container">
+                <div class="red-guess"></div>
+                <div class="green-guess"></div>
+                <div class="blue-guess"></div>
+            </div>
         </div>
         <div class="guess-row">
-            <div class="red-guess"></div>
-            <div class="green-guess"></div>
-            <div class="blue-guess"></div>
+            <div class="swatch-output-container">
+                <div class="swatch-guess"></div>
+            </div>
+            <div class="value-output-container">
+                <div class="red-guess"></div>
+                <div class="green-guess"></div>
+                <div class="blue-guess"></div>
+            </div>
         </div>
-        
+        <div class="guess-row">
+            <div class="swatch-output-container">
+                <div class="swatch-guess"></div>
+            </div>
+            <div class="value-output-container">
+                <div class="red-guess"></div>
+                <div class="green-guess"></div>
+                <div class="blue-guess"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="winner-container">
+        Winner!
     </div>
     
 
 
-    <div class="submit-container">
-        <button id="submit-button">Submit</button>
-    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
